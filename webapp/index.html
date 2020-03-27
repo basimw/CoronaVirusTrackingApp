@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Corona Tracker App</title>
+			<script src = "/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_belize"
+				data-sap-ui-bindingsyntax= "complex"
+				data-sap-ui-resourceroots='{
+					"basim":"./"
+					}'>
+				
+			</script>
+			<script>
+					sap.ui.getCore().attachInit(function(){
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height:"100%",
+						name:"basim"
+					})
+				}).placeAt("MainContent");
+			});
+			</script>
+		</head>
+		<body class="sapUiBody">
+			<div id="MainContent"></div>
+		</body>
+	</html>

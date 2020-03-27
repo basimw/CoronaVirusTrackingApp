@@ -1,0 +1,38 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="basim.controller.Detail"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form">
+	<App>
+		<pages>
+			<Page title="Detailed Information" showNavButton ="true" navButtonPress="onNavPress">
+				<content>
+					<ObjectHeader title="{country}" icon="sap-icon://globe" intro="{province}"></ObjectHeader>
+					<IconTabBar>
+						<items>
+							<IconTabFilter icon="sap-icon://detail-view" text="More Info">
+								<content>
+									<form:SimpleForm id="idForm" editable="true" title="COVID-19 Status">
+										<Label text="Country"></Label>
+										<Text text="{country}"></Text>
+										<Label text="Population"></Label>
+										<Text text="{country_population}"></Text>
+										<Label text="Active cases"></Label>
+										<Text text="{latest/confirmed}"></Text>
+										<Label text="Deaths"></Label>
+										<Text text="{latest/deaths}"></Text>
+										<Label text="Last Updated"></Label>
+										<Text text="{
+													 path : 'last_updated',
+													 formatter : '.formatter.dateTimeFormatter'
+													 }"></Text>
+									</form:SimpleForm>
+								</content>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</content>
+				<footer>
+					<Toolbar></Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

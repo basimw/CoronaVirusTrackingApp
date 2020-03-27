@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/v2",
+      "target": {
+        "type": "destination",
+        "name": "Corona",
+        "entryPath": "/v2"
+      },
+      "description": "Corona Virus API Call"
+    }
+  ],
+  "welcomeFile": "/index1.html",
+  "sendWelcomeFileRedirect": true
+}
