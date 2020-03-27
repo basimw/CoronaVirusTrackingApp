@@ -15,6 +15,6 @@
 					<Toolbar></Toolbar>
 				</footer>
 			</Page>
-		</pages>
+		</pages> 
 	</App>
 </mvc:View>
