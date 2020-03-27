@@ -2,19 +2,19 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="Countries">
+			<Page title="{i18n>XTIT_Master}">
 				<subHeader>
 					<Toolbar>
 						<SearchField liveChange="onSearch"></SearchField>
 					</Toolbar>
 				</subHeader>
 				<content>
-					<List id="idList" growing="true" mode="SingleSelectMaster" selectionChange="onSelect"></List>
+					<List id="idList" growing="true" growingScrollToLoad="true" mode="SingleSelectMaster" selectionChange="onSelect"></List>
 				</content>
 				<footer>
 					<Toolbar></Toolbar>
 				</footer>
 			</Page>
-		</pages> 
+		</pages>
 	</App>
 </mvc:View>

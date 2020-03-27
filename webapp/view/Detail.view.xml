@@ -2,23 +2,23 @@
 	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form">
 	<App>
 		<pages>
-			<Page title="Detailed Information" showNavButton ="true" navButtonPress="onNavPress">
+			<Page title="{i18n>XTIT_DetailView}" showNavButton ="true" navButtonPress="onNavPress">
 				<content>
 					<ObjectHeader title="{country}" icon="sap-icon://globe" intro="{province}"></ObjectHeader>
 					<IconTabBar>
 						<items>
-							<IconTabFilter icon="sap-icon://detail-view" text="More Info">
+							<IconTabFilter icon="sap-icon://detail-view" text="{i18n>Status}">
 								<content>
-									<form:SimpleForm id="idForm" editable="true" title="COVID-19 Status">
-										<Label text="Country"></Label>
+									<form:SimpleForm id="idForm" editable="true">
+										<Label text="{i18n>Country}"></Label>
 										<Text text="{country}"></Text>
-										<Label text="Population"></Label>
+										<Label text="{i18n>Population}"></Label>
 										<Text text="{country_population}"></Text>
-										<Label text="Active cases"></Label>
+										<Label text="{i18n>Active_Cases}"></Label>
 										<Text text="{latest/confirmed}"></Text>
-										<Label text="Deaths"></Label>
+										<Label text="{i18n>Deaths}"></Label>
 										<Text text="{latest/deaths}"></Text>
-										<Label text="Last Updated"></Label>
+										<Label text="{i18n>Last_Updated}"></Label>
 										<Text text="{
 													 path : 'last_updated',
 													 formatter : '.formatter.dateTimeFormatter'
