@@ -3,7 +3,7 @@ sap.ui.define(
 		"sap/ui/model/json/JSONModel"
 	],
 	function(UIComponent, JSONModel) {
-		return UIComponent.extend("basim.Component", {
+		return UIComponent.extend("covid.track.Component", {
 
 			metadata: {
 				"manifest": "json"

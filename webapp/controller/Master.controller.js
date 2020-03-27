@@ -6,7 +6,7 @@ sap.ui.define([
 ], function(Controller, JSONModel, Filter, MessageBox) {
 	"use strict";
 
-	return Controller.extend("basim.controller.Master", {
+	return Controller.extend("covid.track.controller.Master", {
 		
 		onInit: function() {
 			var sURL = "/v2/locations";

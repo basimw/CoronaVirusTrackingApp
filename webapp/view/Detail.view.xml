@@ -1,4 +1,4 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="basim.controller.Detail"
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="covid.track.controller.Detail"
 	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form">
 	<App>
 		<pages>

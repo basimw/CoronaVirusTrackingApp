@@ -1,10 +1,10 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"basim/util/formatter"
+	"covid/track/util/formatter"
 ], function(Controller,Formatter) {
 	"use strict";
 
-	return Controller.extend("basim.controller.Detail", {
+	return Controller.extend("covid.track.controller.Detail", {
 
 			formatter:Formatter,
 			

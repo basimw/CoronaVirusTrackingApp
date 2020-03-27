@@ -34,7 +34,7 @@
 			}
 		},
 		"rootView": {
-			"viewName": "basim.view.App",
+			"viewName": "covid.track.view.App",
 			"type": "XML",
 			"id": "idRoot"
 		},
@@ -42,7 +42,7 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "basim.view",
+				"viewPath": "covid.track.view",
 				"controlId": "idApp"
 			},
 			"routes": [{
