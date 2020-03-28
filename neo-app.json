@@ -18,7 +18,5 @@
       },
       "description": "Corona Virus API Call"
     }
-  ],
-  "welcomeFile": "/index1.html",
-  "sendWelcomeFileRedirect": true
+  ]
 }
